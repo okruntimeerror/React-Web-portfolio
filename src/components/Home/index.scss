@@ -1,0 +1,95 @@
+.home-page {
+
+    .back-ground{
+        position: relative;
+        left: 15%;
+        bottom: 100px;
+        opacity: 0.1;
+  
+        img{
+         animation: zoomIn 6s forwards;
+        }
+    }
+
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+
+
+      
+    }
+    
+    h1{
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        text-overflow: clip;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: gold;
+            font-size: 18px;
+            opacity: 0.6;
+            position: absolute;
+            
+        }
+
+        &::after{
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: gold;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 0px;
+            margin-right: 0px;
+            opacity: 0.6;
+        }
+
+        img{
+            width: 32px;
+        }
+    }
+
+
+    h2 {
+        color: gold;
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        opacity: 0.8;
+        letter-spacing: 2px;
+        animation: fadeIn 1s 1.8s backwards;
+
+    }
+
+    .flat-button {
+        color: gold;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px; 
+        border: 1px solid gold;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        
+
+        &:hover{
+            background: gold;
+            color: #333;
+
+        }   
+
+    }
+
+}

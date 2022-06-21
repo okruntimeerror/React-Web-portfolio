@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    height: 100;
+    width: 100;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.accordion {
+    width: 500px;
+}
+
+.item{
+    background: gold;
+    margin-bottom: 5px; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.title {
+    color: #022c43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: #022c43;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 900;
+}
