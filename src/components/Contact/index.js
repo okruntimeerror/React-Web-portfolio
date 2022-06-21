@@ -24,10 +24,7 @@ const Contact = () => {
         e.preventDefault()
 
         emailjs.sendForm (
-            'service_lsxhfme',
-            'template_bkwl5jp',
-            form.current,
-            'VBpEj9COtXBbVcDBm'
+           [ALL EMAILJS PERSONAL INFORMATION REDACTED] 
         )
         .then (
             () => {
@@ -58,8 +55,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                       I check my email regularly, I'll usually get back to you within a day or two.
-                       My phone number is 321-240-5418 and It is best if your text me before making any calls.  
+                       [REDACTED]
                     </p>
 
                     <div className='contact-form'>
