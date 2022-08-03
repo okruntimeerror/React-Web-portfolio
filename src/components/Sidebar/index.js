@@ -47,7 +47,7 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/> 
             </a>
         </li>
-
+       {/* Handshake link*/} 
         <li>
             <a 
             target='_blank'
